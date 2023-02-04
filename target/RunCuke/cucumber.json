@@ -1,0 +1,735 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# @login"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#  @smoke"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 6531958200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 672263600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151431900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 886273000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49924800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "LoginSteps.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 11,
+            "value": "#  @sanity"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2112632000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-test;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 719173400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 858209000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153230500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email \"Primeeight@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Primeeight@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116514300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350903400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should login successfully",
+            "match": {
+              "location": "LoginSteps.iShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2474524000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 662032500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432240000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128262400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter email \"abcd123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd123@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101438500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter password \"xyz123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357895600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47942800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see the error message \"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2526952800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 678378100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 476503900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131011000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter email \"xyz123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz123@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110905200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356147000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45366600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see the error message \"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2013445300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 654874600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 877704200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105565700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter email \"adfafasd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adfafasd@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100324100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter password \"xyz123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 345949900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49597900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see the error message \"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2481248100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should create account successfully",
+        "description": "",
+        "id": "register;user-should-create-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 708809300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2043100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enters following users details",
+            "match": {
+              "location": "RegisterSteps.iEntersFollowingUsersDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Jay",
+                  "Vaghani",
+                  "jay@gmail.com",
+                  "07878451263",
+                  "Harrow"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Amit",
+                  "Kathrotiya",
+                  "amit@gmail.com",
+                  "07878451285",
+                  "Luton"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Aum",
+                  "Vaghani",
+                  "aum@gmail.com",
+                  "07878454585",
+                  "Harrow"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "registration successful",
+            "match": {
+              "location": "RegisterSteps.registrationSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "register.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Register"
+      }
+    ]
+  }
+]
