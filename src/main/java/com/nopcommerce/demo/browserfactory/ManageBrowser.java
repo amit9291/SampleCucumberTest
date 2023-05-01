@@ -27,6 +27,7 @@ public class ManageBrowser {
     public void selectBrowser(String browser){
         if (browser.equalsIgnoreCase("chrome")) {
           options = new ChromeOptions();
+            options.addArguments("--remote-allow-origins=*");
            // options.addArguments("--disable notification");//disable notification
             options.addArguments("--incognito");// opens in incognito
            // options.addArguments("--headless");// without browser launching
