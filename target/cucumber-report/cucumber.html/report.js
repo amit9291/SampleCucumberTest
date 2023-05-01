@@ -13,7 +13,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6343615100,
+  "duration": 3741425400,
   "status": "passed"
 });
 formatter.scenario({
@@ -49,29 +49,29 @@ formatter.match({
   "location": "LoginSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 246808400,
+  "duration": 124715400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 989219400,
+  "duration": 417509300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iShouldNavigateToLoginPageSuccessfully()"
 });
 formatter.result({
-  "duration": 59381600,
+  "duration": 32995400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 705016700,
+  "duration": 618830200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2644825800,
+  "duration": 2257706200,
   "status": "passed"
 });
 formatter.scenario({
@@ -122,14 +122,14 @@ formatter.match({
   "location": "LoginSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 50300,
+  "duration": 39100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 858366800,
+  "duration": 370048000,
   "status": "passed"
 });
 formatter.match({
@@ -142,7 +142,7 @@ formatter.match({
   "location": "LoginSteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 174903300,
+  "duration": 92823800,
   "status": "passed"
 });
 formatter.match({
@@ -155,25 +155,25 @@ formatter.match({
   "location": "LoginSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 117575300,
+  "duration": 74461400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 387882400,
+  "duration": 347911800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iShouldLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 83500,
+  "duration": 25600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 719967400,
+  "duration": 618084800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -266,7 +266,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2593843000,
+  "duration": 2271615300,
   "status": "passed"
 });
 formatter.scenario({
@@ -320,14 +320,14 @@ formatter.match({
   "location": "LoginSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 26600,
+  "duration": 18300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 865519700,
+  "duration": 786186800,
   "status": "passed"
 });
 formatter.match({
@@ -340,7 +340,7 @@ formatter.match({
   "location": "LoginSteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 140986400,
+  "duration": 79721100,
   "status": "passed"
 });
 formatter.match({
@@ -353,14 +353,14 @@ formatter.match({
   "location": "LoginSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 124500200,
+  "duration": 77076600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 401292700,
+  "duration": 329420400,
   "status": "passed"
 });
 formatter.match({
@@ -373,15 +373,15 @@ formatter.match({
   "location": "LoginSteps.iShouldSeeTheErrorMessage(String)"
 });
 formatter.result({
-  "duration": 65563200,
+  "duration": 26555600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 699757400,
+  "duration": 602210000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2319032600,
+  "duration": 1817001700,
   "status": "passed"
 });
 formatter.scenario({
@@ -435,14 +435,14 @@ formatter.match({
   "location": "LoginSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 33900,
+  "duration": 15000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 877184400,
+  "duration": 374190700,
   "status": "passed"
 });
 formatter.match({
@@ -455,7 +455,7 @@ formatter.match({
   "location": "LoginSteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 162755600,
+  "duration": 74109000,
   "status": "passed"
 });
 formatter.match({
@@ -468,14 +468,14 @@ formatter.match({
   "location": "LoginSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 115859000,
+  "duration": 71313200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 387287100,
+  "duration": 312349800,
   "status": "passed"
 });
 formatter.match({
@@ -488,15 +488,15 @@ formatter.match({
   "location": "LoginSteps.iShouldSeeTheErrorMessage(String)"
 });
 formatter.result({
-  "duration": 62936500,
+  "duration": 28123600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 667598800,
+  "duration": 624125100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2192549000,
+  "duration": 2308083800,
   "status": "passed"
 });
 formatter.scenario({
@@ -550,14 +550,14 @@ formatter.match({
   "location": "LoginSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 27100,
+  "duration": 22300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 936312300,
+  "duration": 371284000,
   "status": "passed"
 });
 formatter.match({
@@ -570,7 +570,7 @@ formatter.match({
   "location": "LoginSteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 126105100,
+  "duration": 76088500,
   "status": "passed"
 });
 formatter.match({
@@ -583,14 +583,14 @@ formatter.match({
   "location": "LoginSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 116310100,
+  "duration": 68162200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 360720700,
+  "duration": 313978100,
   "status": "passed"
 });
 formatter.match({
@@ -603,11 +603,11 @@ formatter.match({
   "location": "LoginSteps.iShouldSeeTheErrorMessage(String)"
 });
 formatter.result({
-  "duration": 59746600,
+  "duration": 28320100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 705532000,
+  "duration": 605406300,
   "status": "passed"
 });
 formatter.uri("register.feature");
@@ -625,7 +625,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2335871700,
+  "duration": 2216384400,
   "status": "passed"
 });
 formatter.scenario({
@@ -692,32 +692,32 @@ formatter.match({
   "location": "LoginSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 66400,
+  "duration": 61800,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterSteps.iClickOnRegisterLink()"
 });
 formatter.result({
-  "duration": 102000,
+  "duration": 89400,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterSteps.iEntersFollowingUsersDetails(DataTable)"
 });
 formatter.result({
-  "duration": 2917900,
+  "duration": 1551100,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterSteps.registrationSuccessful()"
 });
 formatter.result({
-  "duration": 26100,
+  "duration": 18200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 665754800,
+  "duration": 612444200,
   "status": "passed"
 });
 });
